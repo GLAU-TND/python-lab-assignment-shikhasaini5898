@@ -1,0 +1,13 @@
+try:
+  n=int(input())
+  a=input()
+  b=int(input())
+  c=n+b
+  l=a+b
+  n.append(3)
+except ValueError:
+  raise ValueError("value erroe occured")
+except TypeError:
+  raise TypeError("type erroe occured")
+except:
+  raise AttributeError("attribute error occured")
